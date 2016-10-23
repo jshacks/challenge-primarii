@@ -1,0 +1,438 @@
+﻿<link rel="stylesheet" href="skin-xp/ui.easytree.css">
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="js/jquery.easytree.js"></script>
+<div id="demo2_menu"></div>
+<script>
+var data = 
+    [
+      	   {
+		"children":[
+           	 
+		 {
+				"children":[
+						     {
+                "text":"1.1.1 Data ultimei actualizări și conexiuni (e.g. facebook)"
+				
+                           },
+						   {
+				"text":"1.1.2 Multilingvism"
+				
+                           },
+						   {
+						"text":"1.1.3 Contact, sugestii și reclamații"
+				
+                           }						   
+	                      ],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"1.1 Acasa/Contact/Ajutor/login intranet",
+          "tooltip":"text sfat nivel 2."
+		 },
+		 {
+				"children":[
+				{				
+						"text":"1.2.1 Mesajul primarului"
+						},
+						{
+						"text":"1.2.2 Comunicate de presă"
+						},
+						 {
+				"children":[
+								{
+								"text":"1.2.3.1	Anunțuri recrutare și angajări"
+								},
+								{
+								"text":"1.2.3.2	Dezbatere publică"
+								},
+								{
+								"text":"1.2.3.3	Somații și titluri executorii"
+								},
+								{
+								"text":"1.2.3.4	Datornici"
+								},
+								{
+								"text":"1.2.3.5	Evenimente locale & alegeri"
+								},
+								{
+								"text":"1.2.3.6	Oferte vânzare teren extravilan"
+								},
+
+						
+					],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"1.2.3 Anunțuri și comunicate",
+          "tooltip":"text sfat nivel 2."
+		  
+		}	,
+						{
+						"text":"1.3 Verificări stări cereri"
+						},
+						{
+						"text":"1.4 Audiente"
+						},
+						{
+						"text":"1.5 Sondaje și chestionare"
+						},
+						{
+						"text":"1.6 Carte de oaspeți"
+						},
+	],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"1.2 Informații de interes public",
+          "tooltip":"text sfat nivel 2."
+		}
+ ],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"1.PRIMARIA",
+          "tooltip":"text sfat"
+ },
+     
+       {
+          "children":[
+             {
+                "text":"2.1 Stema localității"
+             },
+             {
+                "text":"2.2 Localizare și localități componente UAT"
+             },
+             {
+                "text":"2.3 Date fizico-geografice + climatice"
+             },
+             {
+                "text":"2.4 Populație (efectiv, structură, plecări, sosiri)"
+             },
+             {
+                "text":"2.5 Istoric, monografii, personalități"
+             },
+             {
+                "text":"2.6Infrățiri și asocieri ale localității"
+             },
+             {
+                "text":"2.7 Turism & sport"
+             },
+             {
+                "text":"2.8 Galerie foto, video & tururi virtuale, interviuri, live webcam"
+             }
+          ],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"2.PREZENTARE LOCALITATE",
+          "tooltip":"PREZENTARE LOCALITATE"
+       },
+       {
+          "children":[
+             {
+                "text":"3.1 Geografic"
+             },
+             {
+                "text":"3.2 Populație și foță de muncă"
+             },
+             {
+                "text":"3.3 Economie"
+             },
+             {
+                "text":"3.4 Mediu"
+             },
+             {
+                "text":"3.5 Infrastructura și dezvoltarea edilitară"
+             },
+             {
+                "text":"3.6 Turism & sport"
+             }
+          ],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"3. ANALIZA SWOT",
+          "tooltip":"ANALIZA SWOT"
+       },
+       {
+          "children":[
+             {
+                "text":"4.1 Energii convenționale și neconvenționale"
+             },
+             {
+                "text":"4.2 Structuri edilitare"
+             },
+             {
+                "text":"4.3 Utilități pentru persoane cu handicap"
+             },
+             {
+                "text":"4.4 Unități subordonate"
+             },
+             {
+                "text":"4.5 Poluare"
+             },
+             {
+                "text":"4.6 Servicii pentru situații de urgență"
+             }
+          ],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"4. UAT - UTILITĂȚI",
+          "tooltip":"4. UAT - UTILITĂȚI"
+       },
+	   
+	       {
+          "children":[
+             {
+                "text":"5.1 Pagini web utile"
+             }
+          ],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"5. PAGINI WEB UTILE",
+          "tooltip":"5. Pagini web utile"
+       }, 
+
+  
+	       {
+          "children":[
+             {
+                "text":"6.1 Tipizate/Formulare"
+             },
+			    {
+                "text":"6.2 Acte utile"
+             }
+          ],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"6. ACTE NECESARE",
+          "tooltip":"SWOT"
+       }, 
+       {
+          "children":[
+             {
+                "text":"7.1 Organigrama- fișe post - posturi vacante"
+             },
+			    {
+                "text":"7.2 Primar"
+             },
+		    {
+                "text":"7.3 Consiliul local"
+             },
+		    {
+                "text":"7.4 Pesonal angajat"
+             }
+          ],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"7. CONDUCERE",
+          "tooltip":" "
+       }, 
+	       {
+          "children":[
+             {
+                "text":"8.1 Regulament de organizare și funcționare (ROF)"
+             },
+			    {
+                "text":"8.2 Regulament intern (RI)"
+             },
+		    {
+                "text":"8.3 Regulament local de urbanism"
+             },
+	    {
+                "text":"8.4 Regulament poliție locală"
+             },
+    {
+                "text":"8.5 Taxe și contravenții locale"
+             },
+    {
+                "text":"8.6 HCL cu caracter de reglementări locale"
+             },
+
+ {
+                "text":"8.7 Legislatie națională"
+             },
+    {
+                "text":"8.8 Legislație europeană"
+             }
+          ],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"8. NORMATIVE",
+          "tooltip":" "
+       }, 
+	       {
+          "children":[
+             {
+                "text":"9.1 HCL - La zi (anual)"
+             },
+			    {
+                "text":"9.2 Anunțuri"
+             },
+		    {
+                "text":"9.3 PV ședinte"
+             },
+	    {
+                "text":"9.4 Înregistrări audio-video"
+             },
+    {
+                "text":"9.5 Dispoziții ale primarului"
+             },
+    {
+                "text":"9.6 Alte acte emise de primărie"
+             },
+
+ {
+                "text":"9.7 Rapoarte - actuale"
+             },
+    {
+                "text":"9.8 Execuție bugetară & bilanț contabil"
+             }
+          ],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"9. CONSILIUL LOCAL",
+          "tooltip":" "
+       },
+	   
+	       {
+          "children":[
+             {
+                "text":"10.1 Buget propus"
+             },
+			    {
+                "text":"10.2 Buget aprobat"
+             }
+ 
+          ],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"10. BUGET",
+          "tooltip":" "
+       }, 
+   
+	   
+	   
+	   
+	   
+	   	       {
+          "children":[
+             {
+                "text":"11.1 Planuri de acțiune"
+             },
+			    {
+                "text":"11.2 Proiecte"
+             },
+		    {
+                "text":"11.3 Contracte și investiții"
+             },
+	    {
+                "text":"11.4 Indicatori de performanță planificați/realizați"
+             },
+    {
+                "text":"11.5 Plan anual de achiziții publice"
+             },
+    {
+                "text":"11.6 Achizitii/Licitații"
+             }
+
+ 
+          ],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"11. STRATEGII, PROGRAME și PROIECTE",
+          "tooltip":" "
+       },
+
+	   	       {
+          "children":[
+             {
+                "text":"12.1 Stare civilă - Nașteri, căsătorii, mutări, divorțuri, decese, nunți de aur"
+             },
+			    {
+                "text":"12.2 Impozite si taxe locale - actuale"
+             },
+{
+                "text":"12.3 Somații și titluri executorii	"
+             },
+			    {
+                "text":"12.4 Dispoziție - locuri de afișare"
+             },
+{
+                "text":"12.5 Corpul expertilor electorali"
+             },
+			    {
+                "text":"12.6 Voluntariat"
+             },
+{
+                "text":"12.7 Cetăteni de onoare"
+             },
+			    {
+                "text":"12.8 Activitate culturală"
+             },
+
+	    {
+                "text":"12.9 ONG (asociații și fundații)"
+             }
+ 
+          ],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"12. INFORMAȚII PUBLICE",
+          "tooltip":" "
+       }, 
+	   
+	       {
+          "children":[
+             {
+                "text":"13.1 Biblioteci comunale"
+             },
+			    {
+                "text":"13.2 Cabinete medicale"
+             },
+{
+                "text":"13.3 Posturi de poliție	"
+             },
+			    {
+                "text":"13.4 Oficii poștale"
+             },
+{
+                "text":"13.5 Universități, licee, scoli si gradinițe"
+             },
+			    {
+                "text":"13.6 Parohii si biserici"
+             },
+{
+                "text":"13.7 Asociații de proprietari"
+             },
+			    {
+                "text":"13.8 Presă, radio,TV locale"
+             },
+
+	    {
+                "text":"12.9 Cantine și instituții de asistență socială"
+             }
+ 
+          ],
+          "isActive":false,
+          "isExpanded":false,
+          "isFolder":true,
+          "text":"13. INSTITUTII LOCALE",
+          "tooltip":" "
+       }
+	   
+    ]
+    $('#demo2_menu').easytree({data: data});
+</script>
