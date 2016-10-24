@@ -1,4 +1,4 @@
-#Something simple that shows the power of the Treemap Visualization
+#Something simple that shows the power of the Tree Visualization
 
 ##The hacker of this project is 58 years old, and at the start of the Hackaton v1 had a Microsoft Excel file and a 2 level treemap, now he has 3 levels :) 
 
